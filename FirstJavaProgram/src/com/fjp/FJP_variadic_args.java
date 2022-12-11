@@ -1,3 +1,5 @@
+package com.fjp;
+
 public class FJP_variadic_args {
     static int sum(int ...nums){
         int result = 0;

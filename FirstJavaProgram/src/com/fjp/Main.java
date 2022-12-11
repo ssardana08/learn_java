@@ -1,3 +1,5 @@
+package com.fjp;
+
 public class Main {
 
     public static void sum(){

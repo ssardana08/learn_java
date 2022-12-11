@@ -1,3 +1,5 @@
+package com.fjp;
+
 public class FJP_literals {
     public static void main(String[] args) {
         byte age = 26;

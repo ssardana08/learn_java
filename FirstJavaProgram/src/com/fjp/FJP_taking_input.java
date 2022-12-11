@@ -1,3 +1,5 @@
+package com.fjp;
+
 import java.util.Scanner;
 
 public class FJP_taking_input {

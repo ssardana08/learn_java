@@ -1,3 +1,5 @@
+package com.fjp;
+
 public class FJP_arrays {
     public static void main(String[] args) {
 //        Classroom with n number of students

@@ -1,3 +1,5 @@
+package com.fjp;
+
 public class FJP_multi_arrays {
     public static void main(String[] args) {
         // Flats in a 4-storey building and each floor with 6 flats

@@ -1,3 +1,5 @@
+package com.fjp;
+
 public class FJP_Conditionals {
     public static void main(String[] args) {
         int[] ages = {12, 20, 61, 5};

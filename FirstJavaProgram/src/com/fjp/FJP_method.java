@@ -1,3 +1,5 @@
+package com.fjp;
+
 public class FJP_method {
     static int logic(int x, int y){
         if (x > y){

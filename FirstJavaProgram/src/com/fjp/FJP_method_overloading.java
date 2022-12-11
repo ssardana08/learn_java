@@ -1,3 +1,5 @@
+package com.fjp;
+
 public class FJP_method_overloading {
     static void foo(){
         System.out.println("Hello World!");

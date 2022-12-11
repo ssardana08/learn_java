@@ -1,3 +1,4 @@
+package com.fjp;
 
 class Student{
     private String name;
