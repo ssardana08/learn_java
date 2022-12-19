@@ -5,6 +5,10 @@ abstract class Parent{
         System.out.println("Parents welcome you!");
     }
 
+    public void whoAreYou(){
+        System.out.println("We are parents");
+    }
+
     abstract void greet();
     abstract void greet2();
 }
@@ -31,5 +35,6 @@ public class FJP_abstract {
     public static void main(String[] args) {
         Child1 c = new Child1();
         c.greet();
+        c.whoAreYou();
     }
 }
