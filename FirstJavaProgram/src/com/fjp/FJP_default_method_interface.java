@@ -50,6 +50,7 @@ public class FJP_default_method_interface {
     public static void main(String[] args) {
         SmartPhone sp = new SmartPhone();
         sp.recordVideo();
+        sp.dial(12112);
 
         GPS g = new SmartPhone();
         g.getNetwork();
