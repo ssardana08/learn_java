@@ -9,15 +9,10 @@ public class FJP_switch_case {
         String url = sc.next();
 
         String protocol = url.split(":")[0];
-        switch (protocol){
-            case "http":
-                System.out.println("Not Secured!");
-                break;
-            case "https":
-                System.out.println("Secured");
-                break;
-            default:
-                System.out.println("Invalid Protocol");
+        switch (protocol) {
+            case "http" -> System.out.println("Not Secured!");
+            case "https" -> System.out.println("Secured");
+            default -> System.out.println("Invalid Protocol");
         }
     }
 }

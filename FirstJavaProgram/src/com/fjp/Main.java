@@ -1,5 +1,7 @@
 package com.fjp;
 
+import com.fjp.Table;
+
 public class Main {
 
     public static void sum(){
@@ -14,7 +16,14 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        sum();
+//        System.out.println("Hello world!");
+//        sum();
+        Table t = new Table();
+        TableExecutor te = new TableExecutor();
+        te.run(t.counter);
+        for (String key: t.counter.keySet()){
+            System.out.printf("%s: %d \n", key, t.counter.get(key));
+        }
+        System.out.println();
     }
 }
